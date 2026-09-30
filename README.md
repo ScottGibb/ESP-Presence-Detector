@@ -21,3 +21,8 @@ Firmware lives in [Home-Lab-Containers](https://github.com/ScottGibb/Home-Lab-Co
 and [bedroom](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/bedroom.yaml).
 
 The schematic is tested in CI and released using Release Please.
+
+## Useful links
+
+- [NORPS-12 LDR — Farnell UK](https://uk.farnell.com/advanced-photonix/norps-12/light-dependent-resistor-1mohm/dp/327700)
+- [AM312 PIR sensor — Kunkune UK](https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/)
