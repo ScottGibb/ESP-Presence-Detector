@@ -924,15 +924,25 @@
 			)
 		)
 		(symbol "R_0_1"
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
+			(polyline
+				(pts
+					(xy 0 5.08)
+					(xy 1.905 4.445)
+					(xy -1.905 3.175)
+					(xy 1.905 1.905)
+					(xy -1.905 0.635)
+					(xy 1.905 -0.635)
+					(xy -1.905 -1.905)
+					(xy 1.905 -3.175)
+					(xy -1.905 -4.445)
+					(xy 0 -5.08)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 		)
