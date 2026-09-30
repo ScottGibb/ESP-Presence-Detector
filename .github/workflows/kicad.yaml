@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Check and export schematic
-        uses: actions-for-kicad/kicad-actions@v2-k10.0.5
+        uses: actions-for-kicad/kicad-actions@v2-k10.0.6
         with:
           project_file_name: esp-presence-detector.kicad_pro
           schematic_file_name: esp-presence-detector.kicad_sch
