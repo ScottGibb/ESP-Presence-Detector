@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "Presence")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/Presence.kicad_sym")
+		(options "")
+		(descr "Presence detector modules and sensors")
+	)
+)
