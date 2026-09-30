@@ -1,0 +1,5 @@
+# Default owner for all files.
+* @ScottGibb
+
+# Allow workflow dependency updates without a code-owner review.
+/.github/workflows/

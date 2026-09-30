@@ -5,6 +5,9 @@ updates:
     directory: /
     schedule:
       interval: monthly
+    labels:
+      - dependencies
+      - github_actions
     commit-message:
       prefix: chore
       include: scope
