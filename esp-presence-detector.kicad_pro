@@ -28,7 +28,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|2286000|609600|5c937b56-1655-4725-85ae-1791be0a55ff|00000000-0000-0000-0000-000000000000|||",
+        "This is an external board and not in this schematic. The AM312 can be found on Amazon"
+      ],
+      [
+        "lib_symbol_issues|812800|965200|fad77c9e-b1cd-498e-b2a1-539551c857e4|00000000-0000-0000-0000-000000000000|||",
+        "Ignoring this for now as this will never be a PCB so footprint and sumbol not necessary"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -416,7 +425,7 @@
         "uuid": "de615c45-6dac-4902-9889-e745cc63cb3f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1,R3",
     "variants": []
   },
   "sheets": [
