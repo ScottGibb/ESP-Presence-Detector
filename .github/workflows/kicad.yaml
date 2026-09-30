@@ -1,0 +1,48 @@
+---
+name: KiCad
+"on":
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  schematic:
+    name: Schematic
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check and export schematic
+        uses: actions-for-kicad/kicad-actions@v2-k10.0.5
+        with:
+          project_file_name: esp-presence-detector.kicad_pro
+          schematic_file_name: esp-presence-detector.kicad_sch
+          run_erc: true
+          schematic_output_pdf: true
+          schematic_output_svg: true
+          schematic_output_bom: true
+          schematic_output_netlist: true
+          # PCB checks and fabrication outputs remain disabled.
+      - name: Upload schematic outputs
+        uses: actions/upload-artifact@v7
+        with:
+          name: esp-presence-detector-schematic
+          retention-days: 7
+          if-no-files-found: error
+          path: |
+            schematic.pdf
+            schematics/*.svg
+            bom.csv
+            netlist.net
+      - name: Upload ERC report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: esp-presence-detector-erc-report
+          retention-days: 7
+          path: erc.rpt
+          if-no-files-found: error
