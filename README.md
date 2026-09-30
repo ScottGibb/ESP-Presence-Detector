@@ -19,3 +19,5 @@ Firmware lives in [Home-Lab-Containers](https://github.com/ScottGibb/Home-Lab-Co
 [shared detector](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/detector.yaml),
 [hallway](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/hallway.yaml),
 and [bedroom](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/bedroom.yaml).
+
+The schematic is tested in CI and released using Release Please.
