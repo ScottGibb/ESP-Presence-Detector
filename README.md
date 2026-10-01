@@ -1,5 +1,10 @@
 # ESP Presence Detector
 
+[![KiCad](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/kicad.yaml/badge.svg)](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/kicad.yaml)
+[![MegaLinter](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/mega-linter.yaml/badge.svg)](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/mega-linter.yaml)
+[![Release Please](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/release-please.yaml/badge.svg)](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/release-please.yaml)
+[![Dependabot Auto Merge](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/dependabot.yaml/badge.svg)](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/dependabot.yaml)
+
 A USB-powered presence detector running ESPHome for use with Home Assistant.
 It combines an AM312 PIR sensor and a NORPS-12 light sensor to report motion
 and ambient light levels for automations such as lighting control.
