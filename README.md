@@ -12,6 +12,8 @@ and ambient light levels for automations such as lighting control.
 The hardware uses a Wemos NodeMCU ESP8266. This repository contains the
 [KiCad 10 schematic project](esp-presence-detector.kicad_pro).
 
+![System Diagram](./docs/system-diagram.drawio.svg)
+
 | Connection                 | Wiring                                |
 | -------------------------- | ------------------------------------- |
 | J1: AM312 female header    | 1: 3.3 V, 2: OUT → D5/GPIO14, 3: GND  |
@@ -21,11 +23,20 @@ Use the module's scaled **A0**, not its raw ADC pin. Check AM312 orientation
 before insertion. Both sensors use 3.3 V; power the controller through USB.
 
 Firmware lives in [Home-Lab-Containers](https://github.com/ScottGibb/Home-Lab-Containers):
-[shared detector](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/detector.yaml),
-[hallway](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/hallway.yaml),
-and [bedroom](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/bedroom.yaml).
+
+- [shared detector](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/detector.yaml),
+- [hallway](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/hallway.yaml),
+- [bedroom](https://github.com/ScottGibb/Home-Lab-Containers/blob/main/PiHome/IOT/ESPHome/bedroom.yaml).
 
 The schematic is tested in CI and released using Release Please.
+
+## Pictures
+
+A 3D printed case was made as well, the design of which can be found on Printables/Thingiverse - links coming soon.
+
+![Case](./docs/sensor-in-case.jpeg)
+![Veroboard Back](./docs/veroboard-back.jpeg)
+![Veroboard Front](./docs/veroboard-front.jpeg)
 
 ## Useful links
 
