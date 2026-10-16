@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ScottGibb/ESP-Presence-Detector/compare/v1.0.0...v1.1.0) (2026-10-16)
+
+
+### Features
+
+* add Post Print and Post veroboard pictures ([a13eac8](https://github.com/ScottGibb/ESP-Presence-Detector/commit/a13eac8d4b8faaebbd9ba1a54271b0c9812256da))
+
 ## 1.0.0 (2026-09-30)
 
 
