@@ -35,7 +35,7 @@ The schematic is tested in CI and released using Release Please.
 
 ## Pictures
 
-A 3D printed case was made as well, the design of which can be found on Printables/Thingiverse - links coming soon.
+A 3D printed case was made as well, the design of which can be found on [Printables](https://www.printables.com/model/1879448-esp-presence-detector-case)/[Thingiverse](https://www.thingiverse.com/thing:7423174)
 
 ![Case](./docs/sensor-in-case.jpeg)
 ![Veroboard Back](./docs/veroboard-back.jpeg)
