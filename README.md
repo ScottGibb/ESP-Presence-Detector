@@ -5,6 +5,10 @@
 [![Release Please](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/release-please.yaml/badge.svg)](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/release-please.yaml)
 [![Dependabot Auto Merge](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/dependabot.yaml/badge.svg)](https://github.com/ScottGibb/ESP-Presence-Detector/actions/workflows/dependabot.yaml)
 
+## System Diagram
+
+![System Diagram](./docs/system-diagram.drawio.svg)
+
 A USB-powered presence detector running ESPHome for use with Home Assistant.
 It combines an AM312 PIR sensor and a NORPS-12 light sensor to report motion
 and ambient light levels for automations such as lighting control.
@@ -12,7 +16,6 @@ and ambient light levels for automations such as lighting control.
 The hardware uses a Wemos NodeMCU ESP8266. This repository contains the
 [KiCad 10 schematic project](esp-presence-detector.kicad_pro).
 
-![System Diagram](./docs/system-diagram.drawio.svg)
 
 | Connection                 | Wiring                                |
 | -------------------------- | ------------------------------------- |
